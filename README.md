@@ -1,4 +1,4 @@
-#GitHub Profile Search ~ Buscador de Perfis do GitHub
+# GitHub Profile Search ~ Buscador de Perfis do GitHub
 
 Hello, this is a experiment using github API to get GitHub profile informations by username!
 

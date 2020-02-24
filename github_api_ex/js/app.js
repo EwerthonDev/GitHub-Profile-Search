@@ -13,11 +13,11 @@ function buscar() {
             var perfil = JSON.parse(conexao.responseText);
             ElementResponse.innerHTML = `
             <p class="user"> <b>${perfil.login}</b></p>
-            <p class="name"><b>Nome</b> 👉 ${perfil.name}</p>
+            <p class="name"><b>Name</b> 👉 ${perfil.name}</p>
             <p class="bio"><b>Bio</b> 👉 ${perfil.bio}</p>
             <figure><img clas="img" src="${perfil.avatar_url}"></figure>
             <p clas="local"><b>Local</b> 👉 ${perfil.location}</p>
-            <p class="conta"><b>Conta criada em</b> 👉 ${perfil.created_at}</p>
+            <p class="conta"><b>Account Created on</b> 👉 ${perfil.created_at}</p>
             `
             ElementUsername.value = '';
         }
